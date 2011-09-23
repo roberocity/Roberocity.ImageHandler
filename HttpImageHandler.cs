@@ -57,7 +57,7 @@ namespace Roberocity.ImageHandler
 				}
 			}
 			else {
-				var basePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"images\pressreleases");
+				var basePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"images");
 				if(ShouldResizeImage(context)) {
 					int h;
 					int w;
